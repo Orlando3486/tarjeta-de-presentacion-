@@ -1,0 +1,57 @@
+
+body{
+  background-image: url(https://img.freepik.com/vector-premium/concepto-fondo-abstracto_23-2148486860.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  background-color: rgba(240, 240, 27, 0.658);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 5px 0;
+  text-decoration: underline;
+} 
+
+.fototexto{
+  display: flex;
+}
+
+img{
+  border-radius: 50%;
+  border-color: rgb(241, 234, 122);
+  border: 10px solid rgba(255, 255, 255, 0.658);
+  width: 50%;
+  height: 100%;
+}
+
+.parrafoboton{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p{
+  background-color: rgba(240, 240, 27, 0.658);
+  margin-top: 10%;
+  text-align: center;
+  padding: 5% 5% 5% 5%; 
+  box-shadow: 20px 20px 20px rgb(241, 234, 122);
+  border-radius: 20px;
+  width: 90%;
+}
+
+button{
+  width: 30%;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(236, 236, 17, 0.801);
+  border:none;
+  border-radius: 20px;
+}
